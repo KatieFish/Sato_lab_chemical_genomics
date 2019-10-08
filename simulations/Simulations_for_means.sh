@@ -48,9 +48,8 @@ Rscript --vanilla /home/GLBRCORG/kjfisher5/Sato_lab_chemical_genomics/simulation
 
 Rscript --vanilla sim_enrich_for_means.R 
 
-FILE="/home/GLBRCORG/kjfisher5/Sato_lab_chemical_genomics/simulations/mean.txt"
-echo "*** File - $FILE contents ***"
-cat $FILE
+cp /home/GLBRCORG/kjfisher5/Sato_lab_chemical_genomics/simulations/mean.txt /home/GLBRCORG/kjfisher5/Sato_lab_chemical_genomics/simulations/sim$i\.txt
+ 
 
 done
 
