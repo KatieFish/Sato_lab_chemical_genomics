@@ -4,10 +4,10 @@
 
 user_input=commandArgs(trailingOnly = TRUE)
 
-source("fix_dfs.R")
-source("top_genes.R")
-source("top_up_genes.R")
-source("top_down_genes.R")
+source("/home/GLBRCORG/kjfisher5/Sato_lab_chemical_genomics/simulations/fix_dfs.R")
+source("/home/GLBRCORG/kjfisher5/Sato_lab_chemical_genomics/simulations/top_genes.R")
+source("/home/GLBRCORG/kjfisher5/Sato_lab_chemical_genomics/simulations/top_up_genes.R")
+source("/home/GLBRCORG/kjfisher5/Sato_lab_chemical_genomics/simulations/top_down_genes.R")
 
 
 df<- read.delim(user_input[1], header=TRUE, stringsAsFactors=FALSE)
@@ -36,5 +36,5 @@ if(length(up_tops)>length(down_tops)){
 	
 ndf<- data.frame(inhib, unlist(up_tops), unlist(down_tops))
 colnames(ndf)<-c("Inhibitor", "Significant_up_deletions", "Significant_down_deletions")
-write.table(ndf, file= sprintf("simulated_%s_top_genes.tsv",inhibitor), sep="\t", quote=FALSE)
+write.table(ndf, file= sprintf("/home/GLBRCORG/kjfisher5/Sato_lab_chemical_genomics/simulations/simulated_%s_top_genes.tsv",inhibitor), sep="\t", quote=FALSE)
 
