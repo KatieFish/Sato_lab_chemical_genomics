@@ -373,7 +373,9 @@ ups<- which(Top_gene_master_df[,2]=="Significant_up_deletions")
 Top_gene_master_df[downs, 2]<-"down"
 Top_gene_master_df[ups, 2]<-"up"
 
+sink("/home/GLBRCORG/kjfisher5/Sato_lab_chemical_genomics/simulations/mean.txt")
 x<-count(Top_gene_master_df[,3])
 print(mean(x[,2]))
+sink()
 
 #write.table(Top_gene_master_df, "/home/GLBRCORG/kjfisher5/Sato_lab_chemical_genomics/simulations/simulated_Tradeoff_pleiotropy_table.tsv", sep="\t", quote=FALSE)
