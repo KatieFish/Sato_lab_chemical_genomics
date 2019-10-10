@@ -1,5 +1,12 @@
 #!/usr/bin/env Rscript
 
+
+
+# BASH  script to  produce simulated result tables for chemical inhibitors. 
+# log fold change and p value are permuted together as "linked values", therefore this 
+# script is the equivalent to randomly drawing n gene names from this list, where n 
+# is equal to the number of "significant" genes in the top 10% method.  
+
 #user input 1 is the raw data table and user input 2 is the name of the chemical
 
 user_input=commandArgs(trailingOnly = TRUE)

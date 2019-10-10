@@ -1,8 +1,12 @@
 #!/bin/bash
 
+#bash script that produces 1000 simulations for each inhibitor. 
+#For each simulation, the "significant" genes for each inhibitor 
+#are aggregated. A frequency table is generated and maintained for each simulation. 
+
 
 #Generate Simulation sets
-for i in {1..100}
+for i in {1..10}
 do
 
 Rscript --vanilla /home/GLBRCORG/kjfisher5/Sato_lab_chemical_genomics/simulations/BASH_topgenes_simulations.R  /home/GLBRCORG/kjfisher5/Sato_lab_chemical_genomics/raw_files/22Dipyridyl_results.csv 22Diprydyl
@@ -46,10 +50,10 @@ Rscript --vanilla /home/GLBRCORG/kjfisher5/Sato_lab_chemical_genomics/simulation
 Rscript --vanilla /home/GLBRCORG/kjfisher5/Sato_lab_chemical_genomics/simulations/BASH_topgenes_simulations.R  /home/GLBRCORG/kjfisher5/Sato_lab_chemical_genomics/raw_files/VanillicAcid_results.csv VanillicAcid
 Rscript --vanilla /home/GLBRCORG/kjfisher5/Sato_lab_chemical_genomics/simulations/BASH_topgenes_simulations.R  /home/GLBRCORG/kjfisher5/Sato_lab_chemical_genomics/raw_files/Vanillin_results.csv Vanillin
 
-Rscript --vanilla sim_enrich_for_means.R 
+Rscript --vanilla /home/GLBRCORG/kjfisher5/Sato_lab_chemical_genomics/simulations/sim_enrich_for_means.R 
 
-cp /home/GLBRCORG/kjfisher5/Sato_lab_chemical_genomics/simulations/mean.txt /home/GLBRCORG/kjfisher5/Sato_lab_chemical_genomics/simulations/sim$i\.txt
- 
+Rscript --vanilla /home/GLBRCORG/kjfisher5/Sato_lab_chemical_genomics/simulations/merge_each_iteration.R $i
+
 
 done
 

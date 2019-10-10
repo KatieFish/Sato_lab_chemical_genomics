@@ -376,10 +376,9 @@ Top_gene_master_df[ups, 2]<-"up"
 
 x<-count(Top_gene_master_df[,3])
 
-sink("/home/GLBRCORG/kjfisher5/Sato_lab_chemical_genomics/simulations/mean.txt")
+write.table(count, "/home/GLBRCORG/kjfisher5/Sato_lab_chemical_genomics/simulations/simulation_iteration.tsv", sep="\t", quote=FALSE)
+
+sink("/home/GLBRCORG/kjfisher5/Sato_lab_chemical_genomics/simulations/means.txt")
 mean(x[,2])
 sink()
 
-
-
-#write.table(Top_gene_master_df, "/home/GLBRCORG/kjfisher5/Sato_lab_chemical_genomics/simulations/simulated_Tradeoff_pleiotropy_table.tsv", sep="\t", quote=FALSE)
