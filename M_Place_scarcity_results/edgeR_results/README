@@ -1,0 +1,12 @@
+Files:
+
+*_final.csv are The normalized counts plus the edgeR output
+
+EdgeR Directory - has the direct EdgeR output
+
+LogFoldChange Directory - Merged EdgeR calculated LogFC tables for all chemicals 
+
+Normalized Directory - Normalized counts output by EdgeR script, normalized by EdgeR TMM.
+
+
+

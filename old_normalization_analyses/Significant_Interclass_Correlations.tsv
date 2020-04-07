@@ -1,0 +1,130 @@
+ID	Inhibitor.1	Inhibitor.2	Pearson.cor.coef	p.value	Bonf_adj_p.value	class_comparison	sign	all_same.	observed	possible	obs_poss
+1	Alcohol - Cationic toxin/IL	Alcohol	Cationic toxin/IL	-0.3538887	3.09e-09	5.26e-07	Interclass	TRUE	same	1	8	1/8
+2	Alcohol - Phenolic acid	Phenolic acid	Alcohol	0.3370796	2.08e-08	3.53e-06	Interclass	FALSE	same	2	20	2/20
+3	Alcohol - Phenolic acid	Phenolic acid	Alcohol	0.3726732	1.6e-08	2.72e-06	Interclass	FALSE	same	2	20	2/20
+4	Alcohol - Phenolic aldehyde	Phenolic aldehyde	Alcohol	0.3392566	2.22e-09	3.78e-07	Interclass	FALSE	same	3	6	3/6
+5	Alcohol - Phenolic aldehyde	Phenolic aldehyde	Alcohol	0.2813984	2.22e-06	0.000377	Interclass	FALSE	same	3	6	3/6
+6	Alcohol - Phenolic aldehyde	Phenolic aldehyde	Alcohol	0.2822765	2.95e-07	5.02e-05	Interclass	FALSE	same	3	6	3/6
+7	Alcohol - Pyrazine	Alcohol	Pyrazine	0.5965441	3.04e-21	5.17e-19	Interclass	FALSE	same	1	2	1/2
+8	Alcohol - Solvent	Alcohol	Solvent	0.4127904	1.25e-10	2.13e-08	Interclass	FALSE	same	2	6	2/6
+9	Alcohol - Solvent	Solvent	Alcohol	0.5471543	3.2e-20	5.44e-18	Interclass	FALSE	same	2	6	2/6
+10	Alcohol - Terpene	Terpene	Alcohol	0.4217628	6.91e-15	1.17e-12	Interclass	FALSE	same	2	2	2/2
+11	Alcohol - Terpene	Terpene	Alcohol	0.757824	5.19e-49	8.82e-47	Interclass	FALSE	same	2	2	2/2
+12	Aldehyde - Azole	Aldehyde	Azole	-0.2649477	8.05e-07	0.000137	Interclass	TRUE	same	1	6	1/6
+13	Aldehyde - Salt	Salt	Aldehyde	0.5525087	8.08e-17	1.37e-14	Interclass	FALSE	same	1	2	1/2
+14	Azole - Cationic toxin/IL	Cationic toxin/IL	Azole	0.4087539	3.04e-11	5.17e-09	Interclass	FALSE	same	2	12	2/12
+15	Azole - Cationic toxin/IL	Cationic toxin/IL	Azole	0.4978632	1.51e-13	2.57e-11	Interclass	FALSE	same	2	12	2/12
+16	Azole - Iron chelator	Azole	Iron chelator	0.5720556	8.01e-20	1.36e-17	Interclass	FALSE	same	1	3	1/3
+17	Azole - Phenolic acid	Phenolic acid	Azole	0.4924341	9.4e-13	1.6e-10	Interclass	FALSE	same	5	30	5/30
+18	Azole - Phenolic acid	Phenolic acid	Azole	0.5881681	4.45e-16	7.56e-14	Interclass	FALSE	same	5	30	5/30
+19	Azole - Phenolic acid	Phenolic acid	Azole	0.4493776	5.65e-15	9.61e-13	Interclass	FALSE	same	5	30	5/30
+20	Azole - Phenolic acid	Phenolic acid	Azole	0.6355439	3.37e-27	5.74e-25	Interclass	FALSE	same	5	30	5/30
+21	Azole - Phenolic acid	Phenolic acid	Azole	0.7293895	6.23e-45	1.06e-42	Interclass	FALSE	same	5	30	5/30
+22	Cationic toxin/IL - Iron chelator	Cationic toxin/IL	Iron chelator	0.8114728	5.16e-49	8.77e-47	Interclass	FALSE	mixed	3	4	3/4
+23	Cationic toxin/IL - Iron chelator	Cationic toxin/IL	Iron chelator	-0.4907778	5.53e-19	9.4e-17	Interclass	TRUE	mixed	3	4	3/4
+24	Cationic toxin/IL - Iron chelator	Cationic toxin/IL	Iron chelator	0.7142109	7.32e-42	1.24e-39	Interclass	FALSE	mixed	3	4	3/4
+25	Cationic toxin/IL - Phenolic acid	Cationic toxin/IL	Phenolic acid	-0.4886933	1.25e-15	2.12e-13	Interclass	TRUE	mixed	13	40	13/40
+26	Cationic toxin/IL - Phenolic acid	Phenolic acid	Cationic toxin/IL	-0.5791225	1.46e-20	2.48e-18	Interclass	TRUE	mixed	13	40	13/40
+27	Cationic toxin/IL - Phenolic acid	Cationic toxin/IL	Phenolic acid	-0.4918694	8.81e-16	1.5e-13	Interclass	TRUE	mixed	13	40	13/40
+28	Cationic toxin/IL - Phenolic acid	Phenolic acid	Cationic toxin/IL	-0.4838843	1.51e-16	2.56e-14	Interclass	TRUE	mixed	13	40	13/40
+29	Cationic toxin/IL - Phenolic acid	Phenolic acid	Cationic toxin/IL	-0.4750235	1.61e-11	2.74e-09	Interclass	TRUE	mixed	13	40	13/40
+30	Cationic toxin/IL - Phenolic acid	Phenolic acid	Cationic toxin/IL	0.4497794	6.73e-16	1.14e-13	Interclass	FALSE	mixed	13	40	13/40
+31	Cationic toxin/IL - Phenolic acid	Phenolic acid	Cationic toxin/IL	-0.367312	4.12e-09	7e-07	Interclass	TRUE	mixed	13	40	13/40
+32	Cationic toxin/IL - Phenolic acid	Phenolic acid	Cationic toxin/IL	-0.5463471	3.42e-17	5.81e-15	Interclass	TRUE	mixed	13	40	13/40
+33	Cationic toxin/IL - Phenolic acid	Phenolic acid	Cationic toxin/IL	0.4915549	1.04e-17	1.77e-15	Interclass	FALSE	mixed	13	40	13/40
+34	Cationic toxin/IL - Phenolic acid	Phenolic acid	Cationic toxin/IL	-0.5759656	5.13e-21	8.72e-19	Interclass	TRUE	mixed	13	40	13/40
+35	Cationic toxin/IL - Phenolic acid	Phenolic acid	Cationic toxin/IL	-0.4976117	3.64e-15	6.19e-13	Interclass	TRUE	mixed	13	40	13/40
+36	Cationic toxin/IL - Phenolic acid	Phenolic acid	Cationic toxin/IL	-0.4574765	8.43e-15	1.43e-12	Interclass	TRUE	mixed	13	40	13/40
+37	Cationic toxin/IL - Phenolic acid	Phenolic acid	Cationic toxin/IL	-0.4417499	7.28e-11	1.24e-08	Interclass	TRUE	mixed	13	40	13/40
+38	Cationic toxin/IL - Phenolic aldehyde	Phenolic aldehyde	Cationic toxin/IL	0.4137338	1.54e-14	2.62e-12	Interclass	FALSE	mixed	4	12	4/12
+39	Cationic toxin/IL - Phenolic aldehyde	Phenolic aldehyde	Cationic toxin/IL	0.357071	2.88e-11	4.89e-09	Interclass	FALSE	mixed	4	12	4/12
+40	Cationic toxin/IL - Phenolic aldehyde	Phenolic aldehyde	Cationic toxin/IL	-0.3752315	1.21e-09	2.06e-07	Interclass	TRUE	mixed	4	12	4/12
+41	Cationic toxin/IL - Phenolic aldehyde	Phenolic aldehyde	Cationic toxin/IL	-0.401543	1.16e-12	1.97e-10	Interclass	TRUE	mixed	4	12	4/12
+42	Cationic toxin/IL - Phenolic amide	Phenolic amide	Cationic toxin/IL	-0.3551122	1.45e-09	2.47e-07	Interclass	TRUE	mixed	6	8	6/8
+43	Cationic toxin/IL - Phenolic amide	Phenolic amide	Cationic toxin/IL	-0.4429617	5.28e-13	8.98e-11	Interclass	TRUE	mixed	6	8	6/8
+44	Cationic toxin/IL - Phenolic amide	Cationic toxin/IL	Phenolic amide	-0.3984196	3.33e-12	5.65e-10	Interclass	TRUE	mixed	6	8	6/8
+45	Cationic toxin/IL - Phenolic amide	Phenolic amide	Cationic toxin/IL	0.4265378	1.63e-14	2.76e-12	Interclass	FALSE	mixed	6	8	6/8
+46	Cationic toxin/IL - Phenolic amide	Phenolic amide	Cationic toxin/IL	-0.4532877	3.3e-13	5.62e-11	Interclass	TRUE	mixed	6	8	6/8
+47	Cationic toxin/IL - Phenolic amide	Phenolic amide	Cationic toxin/IL	0.5178827	1.42e-21	2.41e-19	Interclass	FALSE	mixed	6	8	6/8
+48	Cationic toxin/IL - Phenone	Cationic toxin/IL	Phenone	0.4209354	1.55e-13	2.63e-11	Interclass	FALSE	same	3	12	3/12
+49	Cationic toxin/IL - Phenone	Cationic toxin/IL	Phenone	0.6180185	3.76e-32	6.4e-30	Interclass	FALSE	same	3	12	3/12
+50	Cationic toxin/IL - Phenone	Cationic toxin/IL	Phenone	0.4487942	2.78e-15	4.73e-13	Interclass	FALSE	same	3	12	3/12
+51	Fungicide - Phenone	Fungicide	Phenone	-0.35966	6.21e-08	1.05e-05	Interclass	TRUE	same	1	6	1/6
+52	Iron chelator - Phenolic acid	Phenolic acid	Iron chelator	-0.5161696	1.25e-18	2.13e-16	Interclass	TRUE	same	4	10	4/10
+53	Iron chelator - Phenolic acid	Phenolic acid	Iron chelator	-0.4759123	2.29e-15	3.9e-13	Interclass	TRUE	same	4	10	4/10
+54	Iron chelator - Phenolic acid	Phenolic acid	Iron chelator	-0.5494155	1.01e-20	1.72e-18	Interclass	TRUE	same	4	10	4/10
+55	Iron chelator - Phenolic acid	Phenolic acid	Iron chelator	-0.5905223	2.68e-26	4.56e-24	Interclass	TRUE	same	4	10	4/10
+56	Iron chelator - Phenolic aldehyde	Phenolic aldehyde	Iron chelator	-0.3776801	4.64e-11	7.89e-09	Interclass	TRUE	same	2	3	2/3
+57	Iron chelator - Phenolic aldehyde	Phenolic aldehyde	Iron chelator	-0.416882	4.51e-13	7.67e-11	Interclass	TRUE	same	2	3	2/3
+58	Iron chelator - Phenolic amide	Phenolic amide	Iron chelator	-0.5528185	2.99e-23	5.09e-21	Interclass	TRUE	same	2	2	2/2
+59	Iron chelator - Phenolic amide	Phenolic amide	Iron chelator	-0.4960281	4.81e-19	8.18e-17	Interclass	TRUE	same	2	2	2/2
+60	Iron chelator - Phenone	Phenone	Iron chelator	-0.3789749	6.33e-11	1.08e-08	Interclass	TRUE	same	1	3	1/3
+61	Phenolic acid - Phenolic aldehyde	Phenolic acid	Phenolic aldehyde	0.7542891	9.9e-44	1.68e-41	Interclass	FALSE	same	16	30	16/30
+62	Phenolic acid - Phenolic aldehyde	Phenolic aldehyde	Phenolic acid	0.4863394	2.24e-17	3.8e-15	Interclass	FALSE	same	16	30	16/30
+63	Phenolic acid - Phenolic aldehyde	Phenolic aldehyde	Phenolic acid	0.4486494	2.19e-13	3.72e-11	Interclass	FALSE	same	16	30	16/30
+64	Phenolic acid - Phenolic aldehyde	Phenolic acid	Phenolic aldehyde	0.3896596	5.76e-11	9.79e-09	Interclass	FALSE	same	16	30	16/30
+65	Phenolic acid - Phenolic aldehyde	Phenolic acid	Phenolic aldehyde	0.3783237	1.01e-09	1.72e-07	Interclass	FALSE	same	16	30	16/30
+66	Phenolic acid - Phenolic aldehyde	Phenolic aldehyde	Phenolic acid	0.4555289	1.81e-14	3.08e-12	Interclass	FALSE	same	16	30	16/30
+67	Phenolic acid - Phenolic aldehyde	Phenolic aldehyde	Phenolic acid	0.4132349	5.59e-12	9.5e-10	Interclass	FALSE	same	16	30	16/30
+68	Phenolic acid - Phenolic aldehyde	Phenolic aldehyde	Phenolic acid	0.4199308	8.69e-13	1.48e-10	Interclass	FALSE	same	16	30	16/30
+69	Phenolic acid - Phenolic aldehyde	Phenolic aldehyde	Phenolic acid	0.3204496	6.17e-08	1.05e-05	Interclass	FALSE	same	16	30	16/30
+70	Phenolic acid - Phenolic aldehyde	Phenolic acid	Phenolic aldehyde	0.3456683	6.95e-08	1.18e-05	Interclass	FALSE	same	16	30	16/30
+71	Phenolic acid - Phenolic aldehyde	Phenolic aldehyde	Phenolic acid	0.4353681	1.31e-14	2.22e-12	Interclass	FALSE	same	16	30	16/30
+72	Phenolic acid - Phenolic aldehyde	Phenolic aldehyde	Phenolic acid	0.4412042	3.04e-15	5.16e-13	Interclass	FALSE	same	16	30	16/30
+73	Phenolic acid - Phenolic aldehyde	Phenolic aldehyde	Phenolic acid	0.4058909	3.59e-12	6.1e-10	Interclass	FALSE	same	16	30	16/30
+74	Phenolic acid - Phenolic aldehyde	Phenolic acid	Phenolic aldehyde	0.5042663	1.35e-17	2.3e-15	Interclass	FALSE	same	16	30	16/30
+75	Phenolic acid - Phenolic aldehyde	Phenolic aldehyde	Phenolic acid	0.3765681	4.08e-10	6.94e-08	Interclass	FALSE	same	16	30	16/30
+76	Phenolic acid - Phenolic aldehyde	Phenolic aldehyde	Phenolic acid	0.2922338	4.06e-07	6.9e-05	Interclass	FALSE	same	16	30	16/30
+77	Phenolic acid - Phenolic amide	Phenolic acid	Phenolic amide	0.7836166	6.08e-52	1.03e-49	Interclass	FALSE	same	12	20	12/20
+78	Phenolic acid - Phenolic amide	Phenolic acid	Phenolic amide	0.531638	2.12e-18	3.61e-16	Interclass	FALSE	same	12	20	12/20
+79	Phenolic acid - Phenolic amide	Phenolic amide	Phenolic acid	0.7827473	6.78e-50	1.15e-47	Interclass	FALSE	same	12	20	12/20
+80	Phenolic acid - Phenolic amide	Phenolic amide	Phenolic acid	0.3925943	2.61e-12	4.43e-10	Interclass	FALSE	same	12	20	12/20
+81	Phenolic acid - Phenolic amide	Phenolic amide	Phenolic acid	0.331989	7.74e-09	1.32e-06	Interclass	FALSE	same	12	20	12/20
+82	Phenolic acid - Phenolic amide	Phenolic amide	Phenolic acid	0.594658	2.96e-26	5.03e-24	Interclass	FALSE	same	12	20	12/20
+83	Phenolic acid - Phenolic amide	Phenolic acid	Phenolic amide	0.5840207	1.25e-25	2.13e-23	Interclass	FALSE	same	12	20	12/20
+84	Phenolic acid - Phenolic amide	Phenolic acid	Phenolic amide	0.6763214	6.57e-33	1.12e-30	Interclass	FALSE	same	12	20	12/20
+85	Phenolic acid - Phenolic amide	Phenolic amide	Phenolic acid	0.5796471	9.49e-24	1.61e-21	Interclass	FALSE	same	12	20	12/20
+86	Phenolic acid - Phenolic amide	Phenolic acid	Phenolic amide	0.5440532	1.39e-19	2.37e-17	Interclass	FALSE	same	12	20	12/20
+87	Phenolic acid - Phenolic amide	Phenolic acid	Phenolic amide	0.556971	4.88e-21	8.3e-19	Interclass	FALSE	same	12	20	12/20
+88	Phenolic acid - Phenolic amide	Phenolic acid	Phenolic amide	0.445737	1.39e-14	2.36e-12	Interclass	FALSE	same	12	20	12/20
+89	Phenolic acid - Phenone	Phenolic acid	Phenone	0.5194015	1.13e-18	1.92e-16	Interclass	FALSE	same	9	30	9/30
+90	Phenolic acid - Phenone	Phenolic acid	Phenone	0.3921217	8.43e-11	1.43e-08	Interclass	FALSE	same	9	30	9/30
+91	Phenolic acid - Phenone	Phenolic acid	Phenone	0.3113369	5.95e-07	0.000101	Interclass	FALSE	same	9	30	9/30
+92	Phenolic acid - Phenone	Phenolic acid	Phenone	0.3436964	2.21e-07	3.76e-05	Interclass	FALSE	same	9	30	9/30
+93	Phenolic acid - Phenone	Phenolic acid	Phenone	0.3312482	2.88e-07	4.9e-05	Interclass	FALSE	same	9	30	9/30
+94	Phenolic acid - Phenone	Phenolic acid	Phenone	0.4265552	6.41e-13	1.09e-10	Interclass	FALSE	same	9	30	9/30
+95	Phenolic acid - Phenone	Phenolic acid	Phenone	0.3786925	8.31e-11	1.41e-08	Interclass	FALSE	same	9	30	9/30
+96	Phenolic acid - Phenone	Phenolic acid	Phenone	0.4782241	3.09e-17	5.26e-15	Interclass	FALSE	same	9	30	9/30
+97	Phenolic acid - Phenone	Phenolic acid	Phenone	0.3499289	4.37e-08	7.43e-06	Interclass	FALSE	same	9	30	9/30
+98	Phenolic acid - Pyrazine	Phenolic acid	Pyrazine	0.5768706	7.2e-19	1.22e-16	Interclass	FALSE	same	2	10	2/10
+99	Phenolic acid - Pyrazine	Phenolic acid	Pyrazine	0.3589944	6.78e-09	1.15e-06	Interclass	FALSE	same	2	10	2/10
+100	Phenolic aldehyde - Phenolic amide	Phenolic amide	Phenolic aldehyde	0.5194952	1.51e-20	2.57e-18	Interclass	FALSE	same	6	6	6/6
+101	Phenolic aldehyde - Phenolic amide	Phenolic aldehyde	Phenolic amide	0.2895339	2.12e-07	3.6e-05	Interclass	FALSE	same	6	6	6/6
+102	Phenolic aldehyde - Phenolic amide	Phenolic aldehyde	Phenolic amide	0.467043	3.59e-17	6.1e-15	Interclass	FALSE	same	6	6	6/6
+103	Phenolic aldehyde - Phenolic amide	Phenolic aldehyde	Phenolic amide	0.4250547	4.16e-14	7.07e-12	Interclass	FALSE	same	6	6	6/6
+104	Phenolic aldehyde - Phenolic amide	Phenolic aldehyde	Phenolic amide	0.2868994	3.6e-07	6.12e-05	Interclass	FALSE	same	6	6	6/6
+105	Phenolic aldehyde - Phenolic amide	Phenolic amide	Phenolic aldehyde	0.3842882	4.15e-11	7.05e-09	Interclass	FALSE	same	6	6	6/6
+106	Phenolic aldehyde - Phenone	Phenolic aldehyde	Phenone	0.3240129	7.35e-09	1.25e-06	Interclass	FALSE	same	7	9	7/9
+107	Phenolic aldehyde - Phenone	Phenolic aldehyde	Phenone	0.5576687	8.97e-25	1.53e-22	Interclass	FALSE	same	7	9	7/9
+108	Phenolic aldehyde - Phenone	Phenolic aldehyde	Phenone	0.6853598	1.91e-31	3.25e-29	Interclass	FALSE	same	7	9	7/9
+109	Phenolic aldehyde - Phenone	Phenolic aldehyde	Phenone	0.5299069	1.98e-19	3.37e-17	Interclass	FALSE	same	7	9	7/9
+110	Phenolic aldehyde - Phenone	Phenone	Phenolic aldehyde	0.4456582	1.78e-12	3.03e-10	Interclass	FALSE	same	7	9	7/9
+111	Phenolic aldehyde - Phenone	Phenolic aldehyde	Phenone	0.5410022	3.04e-21	5.17e-19	Interclass	FALSE	same	7	9	7/9
+112	Phenolic aldehyde - Phenone	Phenone	Phenolic aldehyde	0.4671591	1.78e-16	3.03e-14	Interclass	FALSE	same	7	9	7/9
+113	Phenolic aldehyde - Pyrazine	Phenolic aldehyde	Pyrazine	0.3508473	4.6e-09	7.83e-07	Interclass	FALSE	same	1	3	1/3
+114	Phenolic amide - Phenone	Phenolic amide	Phenone	0.7643738	1.8e-51	3.06e-49	Interclass	FALSE	same	6	6	6/6
+115	Phenolic amide - Phenone	Phenolic amide	Phenone	0.695663	4.91e-35	8.35e-33	Interclass	FALSE	same	6	6	6/6
+116	Phenolic amide - Phenone	Phenolic amide	Phenone	0.5398004	2.38e-22	4.05e-20	Interclass	FALSE	same	6	6	6/6
+117	Phenolic amide - Phenone	Phenolic amide	Phenone	0.626381	1.54e-28	2.61e-26	Interclass	FALSE	same	6	6	6/6
+118	Phenolic amide - Phenone	Phenolic amide	Phenone	0.4249613	2.98e-12	5.07e-10	Interclass	FALSE	same	6	6	6/6
+119	Phenolic amide - Phenone	Phenolic amide	Phenone	0.4953314	2.57e-17	4.38e-15	Interclass	FALSE	same	6	6	6/6
+120	Phenolic amide - Pyrazine	Phenolic amide	Pyrazine	0.3498694	3.66e-09	6.22e-07	Interclass	FALSE	same	2	2	2/2
+121	Phenolic amide - Pyrazine	Phenolic amide	Pyrazine	0.3552989	1.16e-09	1.96e-07	Interclass	FALSE	same	2	2	2/2
+122	Phenolic amide - Solvent	Phenolic amide	Solvent	0.3500375	1.8e-08	3.06e-06	Interclass	FALSE	same	3	6	3/6
+123	Phenolic amide - Solvent	Solvent	Phenolic amide	0.3218653	3.05e-08	5.18e-06	Interclass	FALSE	same	3	6	3/6
+124	Phenolic amide - Solvent	Phenolic amide	Solvent	0.7251832	5.24e-45	8.9e-43	Interclass	FALSE	same	3	6	3/6
+125	Phenone - Solvent	Solvent	Phenone	0.6443286	2.57e-27	4.37e-25	Interclass	FALSE	same	4	9	4/9
+126	Phenone - Solvent	Solvent	Phenone	0.6620915	3.57e-34	6.06e-32	Interclass	FALSE	same	4	9	4/9
+127	Phenone - Solvent	Solvent	Phenone	0.3575172	2.8e-08	4.76e-06	Interclass	FALSE	same	4	9	4/9
+128	Phenone - Solvent	Solvent	Phenone	0.4854855	1.55e-15	2.63e-13	Interclass	FALSE	same	4	9	4/9
+129	Solvent - Terpene	Terpene	Solvent	0.4311421	1.48e-13	2.51e-11	Interclass	FALSE	same	1	3	1/3

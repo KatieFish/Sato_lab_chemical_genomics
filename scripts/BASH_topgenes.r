@@ -4,16 +4,15 @@
 
 user_input=commandArgs(trailingOnly = TRUE)
 
-source("fix_dfs.R")
-source("top_genes.R")
-source("top_up_genes.R")
-source("top_down_genes.R")
+source("/Users/katiefisher/Sato_lab_chemical_genomics/scripts/top_genes.R")
+source("/Users/katiefisher/Sato_lab_chemical_genomics/scripts/top_up_genes.R")
+source("/Users/katiefisher/Sato_lab_chemical_genomics/scripts/top_down_genes.R")
 
 
 df<- read.delim(user_input[1], header=TRUE, stringsAsFactors=FALSE)
 inhibitor<- user_input[2]
 
-df<- fix_dfs(df)
+df<-df[which(!df$logFC==0), ]
 all_tops<-top_genes(df)
 up_tops<- top_up_genes(df, all_tops)
 down_tops<-top_down_genes(df, all_tops)
